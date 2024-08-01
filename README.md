@@ -7,6 +7,7 @@ Course assignments and tracking
 User authentication and role-based access control
 
 ## Package
+Install Required Packages
 - `dotnet add package Microsoft.EntityFrameworkCore.SqlServer`
 - `dotnet add package Microsoft.EntityFrameworkCore.Tools`
 
