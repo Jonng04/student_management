@@ -5,3 +5,13 @@ This project is a web-based system developed using C#. It allows administrators 
 Manage student and teacher records
 Course assignments and tracking
 User authentication and role-based access control
+
+## Package
+```text
+    Microsoft.EntityFrameworkCore
+    ```
+```text
+    Microsoft.EntityFrameworkCore.SqlServer
+    ```
+
+
