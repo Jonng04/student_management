@@ -1,4 +1,5 @@
-# Student Management System
+# Introduction
+## Student Management System
 This project is a web-based system developed using C#. It allows administrators to manage students, teachers, and courses.
 
 ## Features
