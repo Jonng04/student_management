@@ -25,8 +25,8 @@ Edit `appsettings.json`
 
 ## Run Migrations
 To apply the initial database schema, run the following command
--`dotnet ef migrations add InitialCreate`
--`dotnet ef database update`
+- `dotnet ef migrations add InitialCreate`
+- `dotnet ef database update`
 
 ## Run the Application
 Start the application using the following command
