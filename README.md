@@ -6,10 +6,6 @@ Manage student and teacher records
 Course assignments and tracking
 User authentication and role-based access control
 
-## Package
-Install Required Packages
-- `dotnet add package Microsoft.EntityFrameworkCore.SqlServer`
-- `dotnet add package Microsoft.EntityFrameworkCore.Tools`
 
 ## Prerequisites
 - Before setting up the project, ensure you have the following installed:
@@ -17,4 +13,21 @@ Install Required Packages
 - SQL Server or Docker for containerized SQL Server instances
 - Visual Studio Code or another C# compatible IDE
 
+# Setup Instructions
 
+## Package
+Install Required Packages
+- `dotnet add package Microsoft.EntityFrameworkCore.SqlServer`
+- `dotnet add package Microsoft.EntityFrameworkCore.Tools`
+
+## Configure the Database Connection
+Edit `appsettings.json`
+
+## Run Migrations
+To apply the initial database schema, run the following command
+-`dotnet ef migrations add InitialCreate`
+-`dotnet ef database update`
+
+## Run the Application
+Start the application using the following command
+`dotnet run`
