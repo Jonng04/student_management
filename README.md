@@ -11,7 +11,7 @@ User authentication and role-based access control
     Microsoft.EntityFrameworkCore
     ```
 ```text
-    Microsoft.EntityFrameworkCore.SqlServer
+    port = "51609"; // The port, configured in SQL Server Configuration Manager
     ```
 
 
