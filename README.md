@@ -8,12 +8,12 @@ User authentication and role-based access control
 
 ## Package
 `dotnet add package Microsoft.EntityFrameworkCore.SqlServer`
-`dotnet add package Microsoft.EntityFrameworkCore.Tools`
+- `dotnet add package Microsoft.EntityFrameworkCore.Tools`
 
 ## Prerequisites
-Before setting up the project, ensure you have the following installed:
-.NET Core SDK (8.)
-SQL Server or Docker for containerized SQL Server instances
-Visual Studio Code or another C# compatible IDE
+- Before setting up the project, ensure you have the following installed:
+- .NET Core SDK (8.)
+- SQL Server or Docker for containerized SQL Server instances
+- Visual Studio Code or another C# compatible IDE
 
 
