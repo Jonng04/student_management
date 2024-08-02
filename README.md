@@ -32,3 +32,9 @@ To apply the initial database schema, run the following command
 ## Run the Application
 Start the application using the following command
 `dotnet run`
+
+
+
+##  Xóa Migration
+- dotnet ef migrations remove
+- dotnet ef migrations add NewMigrationName
