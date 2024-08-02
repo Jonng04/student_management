@@ -36,5 +36,6 @@ Start the application using the following command
 
 
 ##  Xóa Migration
+- dotnet ef database update PreviousMigrationName
 - dotnet ef migrations remove
 - dotnet ef migrations add NewMigrationName
